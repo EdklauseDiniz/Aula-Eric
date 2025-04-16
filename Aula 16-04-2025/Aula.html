@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Jorge</title>
+    <style>
+    *{
+        background-color: moccasin;
+        color: orange;
+        font-size: 40px;    
+    }
+    p::first-letter{
+        color:black;
+        font-size: 70px;
+    }
+    #textoPrincipal{
+        color: rgb(255, 0, 0);
+        background-color: aqua;
+    }
+    .sublinhado{
+        text-decoration: underline;
+        background-color: whitesmoke;
+    }
+    .italico{
+        font-style: italic;
+    }
+    .negrito{
+        font-weight: bold;
+    }
+    .cordefundolaranja{
+        background-color: orange;
+    }
+    .big{
+        font-size: larger
+    }
+    [href="https://www.google.com"]{
+        color: red;
+    }
+    [href]{
+        text-decoration: dashed line-through;
+    }
+    [teste="123"]{
+        color: green;
+    }
+    h1:hover{
+        font-size: xx-large;
+        border: 2px solid black;
+    }
+    a:link{
+        color:aquamarine;
+    }
+    a:visited{
+        color:aqua;
+    }
+    a:hover{
+        color: green;
+    }
+    a:active{
+        color:chartreuse;
+    }
+    input:focus{
+        color:black;
+        background-color: white;
+    }
+    input:focus{
+        background-color: sandybrown;
+    }
+    li::after{
+        content: " - sufixo";
+        color: brown;
+    }
+    li::before{
+        content: "Prefixo - ";
+        color: yellowgreen;
+    }
+    li:hover::before{
+        content: "\1f612 "
+    }
+    </style>
+</head>
+<body> 
+    <input type="text" name="" id="">
+    <a href="https://www.facebook.com">Google</a>
+
+    <h1>Texto do Mi</h1>
+
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <p id="textoPrincipal" class="cordefundolaranja big">Paragráfo</p>
+    <p class="big">Paragráfo</p>
+    <p class="sublinhado">Paragráfo</p>
+    <p class="sublinhado italico big">Paragráfo</p>
+    <p teste="123">Paragráfo</p>
+    <p class="sublinhado italico negrito">Paragráfo</p>
+</html>
