@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pobreflix</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        *{
+            color: white
+        }
+        .usuario{
+            display: flex;
+            justify-content: end;
+            height: 30vh;
+        }
+        .infousuario{
+            width: 10%;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: start;
+            font-size: 25px;
+        }
+        img{
+            height: 25vh;
+            width: 25vh;
+        }
+        .series{
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            justify-content: space-around;
+            height: 30%;
+        }
+        .filmes{
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            justify-content: space-around;
+            height: 30%;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+        }
+        .series div:hover{
+            color: green;
+        }
+        .filmes div:hover{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="usuario">
+            <div class="infousuario">
+                Nome: Thais Carla
+                Email: Não atribuido
+                Idade: Alguns anos
+            </div>
+            <img src="Imagemdepeso.jpg">
+        </div>
+        <div class="series">
+        <h1>Séries:</h1>
+            <div class="item">
+                Armado até o nariz
+                <img src="Arma.jpeg">
+            </div>
+            <div class="item">
+                Em meio ao morro
+                <img src="Morro.jfif">
+            </div>
+            <div class="item">
+                Até o último pó
+                <img src="Folha.png">
+            </div>
+        </div>
+        <div class="filmes">
+            <h1>Filmes:</h1>
+            <div class="item">
+                Omegalete
+                <img src="Omelete.jfif">
+            </div>
+            <div class="item">
+                Em meio a mata
+                <img src="Brasil.png">
+            </div>
+            <div class="item">
+                Meu garimpo é ilegal
+                <img src="Garimpo.jfif">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
