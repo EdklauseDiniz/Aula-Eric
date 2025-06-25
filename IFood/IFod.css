@@ -1,0 +1,56 @@
+.introducao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagemintroducao {
+    width: 55vh;
+}
+
+.Inicio{
+    display: flex;
+} 
+
+#logo {
+    height: 15vh;
+    position: static;
+}
+
+body {
+    background-color:blanchedalmond;
+}
+
+.atencao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a[href="Formulario.html"] {
+    background-color:goldenrod;
+    font-size: 6vh;
+    position: absolute;
+    left: 14.3%;
+    text-decoration: none;
+    border-radius: 10%;
+    color:crimson;
+}
+
+.org2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:darkgoldenrod;
+    font-size: 6vh;
+    padding: 55px;
+}
+
+.org3 {
+    background-color:cornflowerblue;
+    display: flex;
+    color:darkorchid;
+    align-items: center;
+    justify-content: space-evenly;
+}
